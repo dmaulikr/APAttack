@@ -6,7 +6,6 @@ import java.awt.Point;
 public class Player extends Point{
 
 String name; 
-Color g = Constants.GREEN_COLOR;
 private boolean moveRight;
 private boolean moveLeft;
 private boolean moveUp;
@@ -40,7 +39,15 @@ private int velX;
 	}
 
 	public boolean isMovingUp() {
-		return false;
+		if((this.getY() - this.getVelY()) > this.getY())
+		{
+			return true; 
+		}
+		else
+		{
+			return false; 
+			
+		}
 	}
 
 	public void setMoveUp(boolean moveUp) {
