@@ -45,10 +45,10 @@ private int velX;
 		}
 		else
 		{
-			return false; 
-			
+			return false;			
 		}
 	}
+
 
 	public void setMoveUp(boolean moveUp) {
 		this.moveUp = moveUp;
