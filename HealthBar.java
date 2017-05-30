@@ -27,7 +27,8 @@ private float health;
 	}
 
 	public void setHealth(int health) {
-		this.health = health;
+		this.health = health; 
+		
 	}
 
 	public double getX() {
