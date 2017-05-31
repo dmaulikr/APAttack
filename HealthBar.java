@@ -4,7 +4,7 @@ import java.awt.Point;
 
 public class HealthBar extends Point{
 
-private float health;
+private int health;
 	
 	public HealthBar() {
 		this.health = Constants.HEALTH_MAX;
@@ -22,7 +22,7 @@ private float health;
 		}
 	}
 
-	public float getHealth() {
+	public int getHealth() {
 		return this.health;
 	}
 
