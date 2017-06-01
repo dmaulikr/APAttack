@@ -13,20 +13,40 @@ Player player;
 	}
 	
 	@Override
-	public void keyPressed(KeyEvent e) {
-		if (e.getKeyCode() == KeyEvent.VK_UP)
+	public void keyPressed(KeyEvent k) {
+		if (k.getKeyCode() == KeyEvent.VK_UP)
 		{
 			player.setMoveUp(true);
 		}
 		
-		if(e.getKeyCode() == KeyEvent.VK_RIGHT)
+		if(k.getKeyCode() == KeyEvent.VK_RIGHT)
 		{
-			player.set
+			player.setMoveRight();
+		}
+		if(k.getKeyCode() == KeyEvent.VK_LEFT)
+		{
+			player.setMoveLeft(); 
 		}
 	}
 
 	@Override
 	public void keyReleased(KeyEvent k) {
+		
+		if (k.getKeyCode() == KeyEvent.VK_UP)
+		{
+			player.setVelY(0);
+		}
+		
+		if(k.getKeyCode() == KeyEvent.VK_RIGHT)
+		{
+			player.setVelX(0);
+		}
+		if(k.getKeyCode() == KeyEvent.VK_LEFT)
+		{
+			player.setVelX(0);  
+		}
+		
+		
 		
 	}
 
