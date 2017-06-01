@@ -1,0 +1,25 @@
+
+
+#Pane{
+    -fx-background-image: url("book.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1500 1100;
+    -fx-background-position: center center;
+}
+
+#button1{
+	-fx-background-color: radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, rgb(255,255,255) 0.0, rgb(255,179,102) 100.0 );
+	
+}
+
+#button2{
+	-fx-background-color: radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, rgb(255,255,255) 0.0, rgb(128,179,128) 100.0 );
+	
+	
+}
+
+#button3{
+	-fx-background-color: radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, rgb(255,255,255) 0.0, rgb(128,153,255) 100.0 );
+	
+	
+}
