@@ -3,10 +3,11 @@ package application;
 import javafx.application.Application;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.layout.BorderPane;
 import javafx.fxml.FXMLLoader;
 
-
+//https://stackoverflow.com/questions/29271239/how-to-embed-jpanel-into-javafx-pane
 public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
